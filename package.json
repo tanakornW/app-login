@@ -1,7 +1,7 @@
 {
   "name": "my-package",
  "scripts": {
-   "start": "concurrently \"node api.js\"",
+   "start": "node api.js",
   "test": "(eslint lib || true) && jest"
 },
   "dependencies": {
